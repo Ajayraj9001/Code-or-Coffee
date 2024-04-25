@@ -1,4 +1,6 @@
-// Singleton
+// Object:- Singleton, Constructor based and Literal based
+
+// Note:- Object.create method is used to create an Object
 
 // Using Symbol as object
 const mySym = Symbol("key1")  // Here we declared the Symbol
