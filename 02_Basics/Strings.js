@@ -6,6 +6,8 @@ const repoCount = 50
 // Important Note :- we have to use backtaxt ` ` for String to concatinate or doing String tasks in JS it is an convineient way of using Strings
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
+// Note:- The above way of writing String is also called String Interpoletion 
+
 // Another Way of Declaring String in JS
 
 const gameName = new String('hitesh-hc-com')
