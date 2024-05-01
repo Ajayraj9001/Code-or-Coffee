@@ -76,4 +76,26 @@ const users = [
 
 // Important Note:- When value are coming from database then values will always comes in array of objects
 
-users[1].email
+console.log(users[1].email);
+
+console.log(tinderUser);
+// This will show the output of above Object tinderUser keys
+
+// Method 1 of Object
+console.log(Object.keys(tinderUser));
+
+// Note:- tinderUser object's all keys will show in an array
+
+// Method 2 of Object
+console.log(Object.values(tinderUser));
+
+// Method 3 of Object
+console.log(Object.entries(tinderUser));
+
+// Note:- In the above method 3rd all three entries will come in individual arrays in a single array Object
+
+// Method 4 of Objects
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+// This above Method will check this property is exist in the tinderUser object or not
+

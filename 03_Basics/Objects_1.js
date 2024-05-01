@@ -38,6 +38,7 @@ JsUser.email = "ajay@chatgpt.com"
 JsUser.email = "ajay@microsoft.com"
 console.log(JsUser);
 
+
 JsUser.greeting = function(){
     console.log("Hello JS User");
 }
