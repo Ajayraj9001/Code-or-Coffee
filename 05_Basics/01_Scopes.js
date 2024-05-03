@@ -17,4 +17,4 @@ for (let i = 0; i < array.length; i++) {
     
 }
 
-
+// Note:- In JavaScript everything is inside curly braces is called scope.
