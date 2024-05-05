@@ -1,0 +1,47 @@
+JavaScript Execution Context:- 
+
+JavaScript EC means the JS file we made, how the file will run or Execute
+
+Useally there are below types of Execution context:-
+
+-> Global Execution Context
+-> Function Execution Context
+-> Eval Execution Context
+
+Basically JS file run in 2 phase:-
+
+1. Global Execution Phase:-
+{code} -> Global Execution Context <- The Global EC is also to be putted into 'this' keyword
+
+In Global Execution Phase the {code} has to be putted inside 'this' keyword.
+
+Note:- Browser's execution context is always different from Node, Dino and all.
+
+2. Memory Creation(Allocation) Phase:- In memory creation phase the memory size has been declared for the variables and function made in the code.
+
+Note:- JS is single threaded language.
+
+3. Execution Phase:- Execution phase defines how the code will execute in JS.
+
+Suppose There is code given below
+
+Code Example:-
+" let val1 = 10
+let val2 = 5
+function addNum(num1, num2){
+    let total = num1 + num2
+    return total
+}
+let result1 = addNum(val1, val2)
+let result2 = addNum(10, 2) "
+
+This Memory phase will do these below thing for the above example code:-
+
+val1 -> undefined
+val2 -> undefined
+addNum -> defination
+result1 -> undefined
+result2 -> undefined
+
+Imp Note:- Here the first cycle has done, in first cycle 2 staps(phases) comes 1st Global EC and 2nd Memory Phase.
+
