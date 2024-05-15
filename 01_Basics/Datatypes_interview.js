@@ -1,6 +1,4 @@
-// Primitive Data Type
-
-// 7 types : String, Number, Boolean, null, undefined, Symbol
+/* 1. Primitive Data Type:- (7 types) String, Number, Boolean, null, undefined, Symbol. */
 
 const score = 100
 const scoreValue = 100.3
@@ -16,9 +14,7 @@ console.log(id === anotherId);  // Because Symbol always gives a unique value, t
 const bigNumber = 9823949050938209n 
  // After putting 'n' at the end of the number will be treated as bigInteger value. 
 
-// Reference Type(Non Primitive)
-
-// Array, Objects, Functions
+/* 2. Reference Type(Non Primitive):- Array, Objects, Functions. */
 
 const heros = ["Shaktiman", "Naagraj", "Doga"]
 
